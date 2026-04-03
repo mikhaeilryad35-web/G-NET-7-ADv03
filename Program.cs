@@ -153,24 +153,53 @@
             //queue.Enqueue("Resume.pdf");
             //queue.Enqueue("Photo.jpg");
 
-           
+
             //Console.WriteLine(string.Join(", ", queue));
             //Console.WriteLine("Count: " + queue.Count);
 
-             
+
             //Console.WriteLine("Next: " + queue.Peek());
 
-             
+
             //while (queue.Count > 0)
             //{
             //    Console.WriteLine("Printing: " + queue.Dequeue());
             //}
 
-            
+
             //if (queue.TryDequeue(out string doc))
             //    Console.WriteLine(doc);
             //else
             //    Console.WriteLine("Queue is empty");
+            #endregion
+
+            #region Exercise 6:
+            //Stack<string> history = new Stack<string>();
+
+            //history.Push("google.com");
+            //history.Push("github.com");
+            //history.Push("stackoverflow.com");
+            //history.Push("youtube.com");
+            //history.Push("claude.ai");
+
+            
+            //Console.WriteLine("Current: " + history.Peek());
+
+            
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Console.WriteLine("Leaving: " + history.Pop());
+            //}
+
+             
+            //Console.WriteLine("Now at: " + history.Peek());
+
+          
+            //Stack<string> emptyStack = new Stack<string>();
+            //if (emptyStack.TryPop(out string page))
+            //    Console.WriteLine(page);
+            //else
+            //    Console.WriteLine("Stack is empty");
             #endregion
         }
     }
