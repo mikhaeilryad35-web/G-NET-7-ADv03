@@ -119,29 +119,58 @@
             //    };
 
             //Console.WriteLine("Count: " + emails.Count);
-            
 
-             
+
+
             //HashSet<int> A = new HashSet<int> { 1, 2, 3, 4, 5 };
             //HashSet<int> B = new HashSet<int> { 4, 5, 6, 7, 8 };
 
-             
+
             //var union = new HashSet<int>(A);
             //union.UnionWith(B);
             //Console.WriteLine("Union: " + string.Join(", ", union));
 
-            
+
             //var intersect = new HashSet<int>(A);
             //intersect.IntersectWith(B);
             //Console.WriteLine("Intersect: " + string.Join(", ", intersect));
 
-            
+
             //var except = new HashSet<int>(A);
             //except.ExceptWith(B);
             //Console.WriteLine("Except: " + string.Join(", ", except));
 
-            
+
             //Console.WriteLine(new HashSet<int> { 1, 2 }.IsSubsetOf(A));
+            #endregion
+
+            #region Exercise 5:
+            //Queue<string> queue = new Queue<string>();
+
+            //queue.Enqueue("Report.pdf");
+            //queue.Enqueue("Invoice.pdf");
+            //queue.Enqueue("Letter.docx");
+            //queue.Enqueue("Resume.pdf");
+            //queue.Enqueue("Photo.jpg");
+
+           
+            //Console.WriteLine(string.Join(", ", queue));
+            //Console.WriteLine("Count: " + queue.Count);
+
+             
+            //Console.WriteLine("Next: " + queue.Peek());
+
+             
+            //while (queue.Count > 0)
+            //{
+            //    Console.WriteLine("Printing: " + queue.Dequeue());
+            //}
+
+            
+            //if (queue.TryDequeue(out string doc))
+            //    Console.WriteLine(doc);
+            //else
+            //    Console.WriteLine("Queue is empty");
             #endregion
         }
     }
